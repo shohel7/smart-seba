@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn link -->
+    <!-- swiperJS cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- daisyUi cdn link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- tailwind Cdn Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Smart Seba</title>
+  </head>
+  <body>
+    <!-- header section starts here -->
+    <header class="px-2 mt-1">
+      <!-- nav part start here -->
+      <nav class="bg-[#0D47A1] rounded-b-3xl py-4">
+        <div class="flex items-center justify-between px-5 md:px-28">
+          <div>
+            <img
+              class="w-36 cursor-pointer"
+              src="/images/smartseba.png"
+              alt="logo"
+            />
+          </div>
+          <div>
+            <label for="my-drawer"
+              ><i
+                class="fa-solid fa-bars text-2xl text-white cursor-pointer"
+              ></i
+            ></label>
+          </div>
+        </div>
+      </nav>
+      <!-- drawer part start here -->
+      <div class="drawer bg-[#0D47A1] z-10">
+        <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+        <div class="drawer-content">
+          <!-- Page content here -->
+        </div>
+        <div class="drawer-side">
+          <label for="my-drawer" class="drawer-overlay"></label>
+          <ul
+            class="p-4 w-60 min-h-full bg-[#0D47A1] text-base-content text-white font-semibold text-base space-y-4"
+          >
+            <!-- Sidebar content here -->
+
+            <li>
+              <h3
+                class="text-[#F09800] hover:text-[#F09800] text-2xl font-bold"
+              >
+                Debabrata Paul
+              </h3>
+            </li>
+            <li>
+              <img
+                class="rounded-full w-28 mx-auto"
+                src="/images/councillor.png"
+                alt="councillor-image"
+              />
+            </li>
+            <li>
+              <div class="border-t border-b pb-3 pt-3 p-0">
+                <span class="text-green-500 font-bold text-lg"
+                  >Councillor, 10No. Ward
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+              </span>
+            </li>
+            <li>
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <a href="#">About SmartSeba</a>
+              </span>
+            </li>
+            <li>
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-user"></i>
+                <a href="#">Our Councillor</a>
+              </span>
+            </li>
+            <li>
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="#">10 No. Ward</a>
+              </span>
+            </li>
+            <li>
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-building-columns"></i>
+                <a href="#">Barasat Municipality</a>
+              </span>
+            </li>
+            <li>
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-truck-medical"></i>
+                <a href="#">Emergency Contacts</a>
+              </span>
+            </li>
+            <li>
+              <span class="flex items-center gap-2">
+                <i class="fa-solid fa-handshake-angle"></i>
+                <a href="#">Covolunteers</a>
+              </span>
+            </li>
+            <hr />
+            <li>
+              <span class="flex gap-14 text-lg">
+                <span><i class="fa-brands fa-facebook-f"></i></span
+                ><span><i class="fa-solid fa-envelope"></i></span
+                ><span><i class="fa-brands fa-square-whatsapp"></i></span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Hero slider part start here -->
+      <div class="mt-2">
+        <!-- Slider main container -->
+        <div class="swiper w-full">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img
+                class="rounded-md md:w-full"
+                src="/images/bannerfirst.png"
+                alt="hero-image"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="md:w-full rounded-md"
+                src="/images/bannersecond.jpeg"
+                alt="hero-image"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="md:w-full rounded-md"
+                src="/images/applaunch.png"
+                alt="hero-image"
+              />
+            </div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </header>
+    <!-- header section end here -->
+
+    <!-- Find your scheme section start here -->
+    <section class="px-5 md:px-28">
+      <div class="py-14">
+        <h2 class="text-[#0D47A1] font-bold text-2xl md:text-3xl text-center">
+          Find Your Schems Here
+        </h2>
+        <div class="grid grid-cols-3 gap-7 md:gap-12 mt-12">
+          <span class="mx-auto"
+            ><img
+              class="w-40 border rounded-full p-3 shadow-lg"
+              src="/images/category-1.png"
+              alt="schems-image"
+          /></span>
+          <span class="mx-auto"
+            ><img
+              class="w-40 border rounded-full p-3 shadow-lg"
+              src="./images/category-2.png"
+              alt="schems-image"
+          /></span>
+          <span class="mx-auto"
+            ><img
+              class="w-40 border rounded-full p-3 shadow-lg"
+              src="./images/category-3.jpg"
+              alt="schems-image"
+          /></span>
+          <span class="mx-auto"
+            ><img
+              class="w-40 border rounded-full p-3 shadow-lg"
+              src="./images/category-4.png"
+              alt="schems-image"
+          /></span>
+          <span class="mx-auto"
+            ><img
+              class="w-40 border rounded-full p-3 shadow-lg"
+              src="./images/category-5.png"
+              alt="schems-image"
+          /></span>
+          <span class="mx-auto"
+            ><img
+              class="w-40 border rounded-full p-3 shadow-lg"
+              src="./images/category-6.png"
+              alt="schems-image"
+          /></span>
+        </div>
+        <div class="pt-14 text-center">
+          <button
+            class="py-2.5 px-7 bg-[#0D47A1] text-white rounded-md shadow-lg hover:shadow-[#0D47A1] hover:shadow-xl transition-all duration-300"
+          >
+            RAISE YOUR ISSUE / আপনার সমস্যা উত্থাপন করুন
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Find your scheme section end here -->
+
+    <!-- about section start here -->
+    <section class="px-5 md:px-28 pb-14">
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h2 class="text-[#0D47A1] font-bold text-2xl md:text-3xl">
+            About Our Ward
+          </h2>
+          <p class="text-justify my-5">
+            বারাসাত পৌরসভার 35 টি ওয়ার্ডের মধ্যে 10 নম্বর ওয়ার্ডকে অন্যতম ওয়ার্ড
+            বলে গণ্য করা হয় | এই ওয়ার্ডটির অবস্থান নপাড়া কালীবাড়ি মন্দির / কিশোর
+            স্পোর্টিং ক্লাবের একপাশ ধরে নপাড়া মনসাতলা , 5 নম্বর রেলওয়ে টিকিট
+            কাউন্টার (বারাসাত জং) থেকে পাইওনিয়ার পার্ক শিশুমঙ্গল ময়দান, নপাড়া
+            পোদ্দার গলি, লিচুতলা, 12 নম্বর রেলগেট সংলগ্ন ওভারব্রিজের দুইপাশ ধরে
+            নবপল্লী ব্যায়ামসমিতির পূজা প্রাঙ্গন, ভাটরাপল্লী পর্যন্ত সুপ্রশস্ত |
+            ...
+          </p>
+          <button
+            class="mt-5 py-2.5 px-7 bg-[#0D47A1] text-white rounded-md shadow-lg hover:shadow-[#0D47A1] hover:shadow-xl transition-all duration-300"
+          >
+            KNOW MORE / আরো জানুন
+          </button>
+        </div>
+        <div>
+          <img class="rounded-md" src="/images/about.jpg" alt="about-image" />
+        </div>
+      </div>
+    </section>
+    <!-- about section end here -->
+
+    <!-- Our Recent Activity section start here-->
+    <section class="px-5 md:px-28 pb-14">
+      <div>
+        <h2 class="text-[#0D47A1] font-bold text-2xl md:text-3xl text-center">
+          Our Recent Activity
+        </h2>
+        <div class="grid md:grid-cols-3 gap-5 mt-12">
+          <div>
+            <img
+              class="h-80 w-full rounded-md mb-3"
+              src="./images/activity-1.jpeg"
+              alt="activity-image"
+            />
+            <span
+              class="text-lg text-lg hover:text-blue-500 duration-200 cursor-pointer"
+              ><a href="#">আপনি হন সবুজের অভিভাবক ...</a>
+            </span>
+          </div>
+          <div>
+            <img
+              class="h-80 w-full rounded-md mb-3"
+              src="./images/activity-2.jpeg"
+              alt="activity-image"
+            />
+            <span
+              class="text-lg text-lg hover:text-blue-500 duration-200 cursor-pointer"
+              ><a href="#">ডাক্তার দিবসের সংবর্ধনা জ্ঞাপন ...</a>
+            </span>
+          </div>
+          <div>
+            <img
+              class="h-80 w-full rounded-md mb-3"
+              src="./images/activity-3.jpeg"
+              alt="activity-image"
+            />
+            <span
+              class="text-lg hover:text-blue-500 duration-200 cursor-pointer"
+              ><a href="#">গ্যাস ডিলারদের নানান সমস্যা নিয়ে বৈঠক ...</a>
+            </span>
+          </div>
+        </div>
+        <div class="text-center mt-12">
+          <button
+            class="py-2.5 px-7 bg-[#0D47A1] text-white rounded-md shadow-lg hover:shadow-[#0D47A1] hover:shadow-xl transition-all duration-300"
+          >
+            SHOW MORE
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Our Recent Activity section end here-->
+
+    <!-- Footer section start here -->
+    <footer>
+      <div class="bg-[#0D47A1] rounded-t-3xl py-3 mx-2 mb-1 text-center">
+        <div
+          class="text-xl flex items-center justify-center gap-10 pb-5 text-white"
+        >
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <span class="text-white"
+          >© 2022 Copyright SMARTSEBA. All Rights Reserved | Design & Developed
+          by Shohel Rana
+        </span>
+      </div>
+    </footer>
+    <!-- Footer section end here -->
+
+    <!-- swiperJS script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        speed: 1000,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 3000,
+        },
+        effect: "fade",
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        // Navigation arrows
+        // navigation: {
+        //   nextEl: ".swiper-button-next",
+        //   prevEl: ".swiper-button-prev",
+        // },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //   el: ".swiper-scrollbar",
+        // },
+      });
+    </script>
+  </body>
+</html>
