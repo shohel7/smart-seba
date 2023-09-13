@@ -28,14 +28,20 @@
       <div
         class="flex items-center justify-between bg-gradient-to-t from-[#0157CE] to-[#04035B] py-2 px-1"
       >
-        <div><img class="w-24" src="/images/police-logo.png" alt="logo" /></div>
-        <div class="text-white">
-          <h2 class="text-center text-3xl font-semibold mb-3">
+        <div>
+          <img class="w-16 md:w-24" src="/images/police-logo.png" alt="logo" />
+        </div>
+        <div class="text-white text-center w-48 md:w-full">
+          <h2 class="text-center text-xl md:text-3xl font-semibold mb-3">
             Bangladesh Police
           </h2>
-          <span>Personal Management Information SYstem</span>
+          <span class="text-sm md:text-base"
+            >Personal Management Information SYstem</span
+          >
         </div>
-        <div><img class="w-24" src="/images/pims_logo.png" alt="logo" /></div>
+        <div>
+          <img class="w-16 md:w-24" src="/images/pims_logo.png" alt="logo" />
+        </div>
       </div>
       <div class="border text-red-500 py-3.5">
         <marquee
@@ -53,7 +59,7 @@
     </section>
     <section class="my-2 px-3 md:px-4">
       <div class="grid md:grid-cols-12 gap-4">
-        <div class="md:col-span-4 border">
+        <div class="md:col-span-4 border min-w-[100px]">
           <div class="flex items-center justify-between px-3 py-2">
             <span class="font-bold">Login</span>
             <div class="flex space-x-3">
@@ -87,7 +93,7 @@
                   <input
                     type="text"
                     placeholder="বিপি নম্বর টাইপ করুন BP0123456789"
-                    class="block w-[345px] focus:outline-none placeholder:text-sm pb-2"
+                    class="block min-w-[280px] focus:outline-none placeholder:text-sm pb-2"
                   />
                 </div>
               </div>
@@ -100,7 +106,7 @@
                   <input
                     type="password"
                     placeholder="Password"
-                    class="block w-[345px] focus:outline-none pb-2"
+                    class="block min-w-[278px] focus:outline-none pb-2"
                   />
                 </div>
               </div>
@@ -121,7 +127,7 @@
           </div>
         </div>
         <div class="md:col-span-8 border flex items-center justify-center">
-          <div class="flex flex-col text-center font-bold">
+          <div class="flex flex-col text-center font-bold px-2 md:px-0">
             <span>Privacy | Terms of Use</span>
             <span>Copyright © 2020 Bangladesh Police,</span>
             <span
