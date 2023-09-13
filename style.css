@@ -1,0 +1,21 @@
+.text-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  /* animation: marquee 10ms linear infinite; */
+}
+.text-wrapper h1 {
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: red;
+  animation: marquee 10s infinite linear;
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
