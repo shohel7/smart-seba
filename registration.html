@@ -31,7 +31,25 @@
     <!-- header section start here -->
     <header>
       <nav class="px-2 md:px-28 py-2">
-        <div class="flex justify-between items-center">
+        <div
+        class="flex items-center justify-between bg-gradient-to-t from-[#0157CE] to-[#04035B] py-2 px-1"
+      >
+        <div>
+          <img class="w-16 md:w-24" src="/images/police-logo.png" alt="logo" />
+        </div>
+        <div class="text-white text-center w-48 md:w-full">
+          <h2 class="text-center text-xl md:text-3xl font-semibold mb-3">
+            Bangladesh Police
+          </h2>
+          <span class="text-sm md:text-base"
+            >Personal Management Information SYstem</span
+          >
+        </div>
+        <div>
+          <img class="w-16 md:w-24" src="/images/pims_logo.png" alt="logo" />
+        </div>
+      </div>
+        <!-- <div class="flex justify-between items-center">
           <div>
             <a href="#">
               <img src="/images/registration/logo.png" alt="logo" />
@@ -81,7 +99,7 @@
               </div>
             </li>
           </ul>
-        </div>
+        </div> -->
       </nav>
       <hr />
     </header>
@@ -247,7 +265,155 @@
                   </div>
                   <div class="flex flex-col pb-3">
                     <label for="">জন্ম তারিখ <span class="text-red-500">*</span> </label>
-                    <input type="date" class="border w-full py-2 rounded-md mt-1 px-2 focus:outline-none">
+                    <!-- <input type="date" class="border w-full py-2 rounded-md mt-1 px-2 focus:outline-none"> -->
+                    <div class="flex gap-1">
+                    <select name="day" class="border w-full py-2 rounded-md mt-1 px-2 focus:outline-none">
+                      <option disabled selected>Day</option>
+                     <option value="1">01</option>
+                     <option value="2">02</option>
+                     <option value="3">03</option>
+                     <option value="4">04</option>
+                     <option value="5">05</option>
+                     <option value="6">06</option>
+                     <option value="7">07</option>
+                     <option value="8">08</option>
+                     <option value="9">09</option>
+                     <option value="10">10</option>
+                     <option value="11">11</option>
+                     <option value="12">12</option>
+                     <option value="13">13</option>
+                     <option value="14">14</option>
+                     <option value="15">15</option>
+                     <option value="16">16</option>
+                     <option value="17">17</option>
+                     <option value="18">18</option>
+                     <option value="19">19</option>
+                     <option value="20">20</option>
+                     <option value="21">21</option>
+                     <option value="22">22</option>
+                     <option value="23">23</option>
+                     <option value="24">24</option>
+                     <option value="25">25</option>
+                     <option value="26">26</option>
+                     <option value="27">27</option>
+                     <option value="28">28</option>
+                     <option value="29">29</option>
+                     <option value="30">30</option>
+                     <option value="31">31</option>
+                    </select>
+                    <select name="month" class="border w-full py-2 rounded-md mt-1 px-2 focus:outline-none">
+                      <option disabled selected>Month</option>
+                      <option value="january">January</option>
+                      <option value="februay">Februay</option>
+                      <option value="march">March</option>
+                      <option value="april">April</option>
+                      <option value="may">May</option>
+                      <option value="june">June</option>
+                      <option value="july">July</option>
+                      <option value="august">August</option>
+                      <option value="september">September</option>
+                      <option value="octorber">Octorber</option>
+                      <option value="november">November</option>
+                      <option value="december">December</option>
+                    </select>
+                    <select name="year" class="border w-full py-2 rounded-md mt-1 px-2 focus:outline-none">
+                      <option disabled selected>Year</option>
+                       <option value="">1930</option>
+                       <option value="">1931</option>
+                       <option value="">1932</option>
+                       <option value="">1933</option>
+                       <option value="">1934</option>
+                       <option value="">1935</option>
+                       <option value="">1936</option>
+                       <option value="">1937</option>
+                       <option value="">1938</option>
+                       <option value="">1939</option>
+                       <option value="">1940</option>
+                       <option value="">1942</option>
+                       <option value="">1942</option>
+                       <option value="">1943</option>
+                       <option value="">1944</option>
+                       <option value="">1945</option>
+                       <option value="">1946</option>
+                       <option value="">1947</option>
+                       <option value="">1948</option>
+                       <option value="">1949</option>
+                       <option value="">1950</option>
+                       <option value="">1951</option>
+                       <option value="">1952</option>
+                       <option value="">1953</option>
+                       <option value="">1954</option>
+                       <option value="">1955</option>
+                       <option value="">1956</option>
+                       <option value="">1957</option>
+                       <option value="">1958</option>
+                       <option value="">1959</option>
+                       <option value="">1960</option>
+                       <option value="">1961</option>
+                       <option value="">1962</option>
+                       <option value="">1963</option>
+                       <option value="">1964</option>
+                       <option value="">1965</option>
+                       <option value="">1966</option>
+                       <option value="">1967</option>
+                       <option value="">1968</option>
+                       <option value="">1969</option>
+                       <option value="">1970</option>
+                       <option value="">1971</option>
+                       <option value="">1972</option>
+                       <option value="">1973</option>
+                       <option value="">1974</option>
+                       <option value="">1975</option>
+                       <option value="">1976</option>
+                       <option value="">1977</option>
+                       <option value="">1978</option>
+                       <option value="">1979</option>
+                       <option value="">1980</option>
+                       <option value="">1981</option>
+                       <option value="">1982</option>
+                       <option value="">1983</option>
+                       <option value="">1984</option>
+                       <option value="">1985</option>
+                       <option value="">1986</option>
+                       <option value="">1987</option>
+                       <option value="">1988</option>
+                       <option value="">1989</option>
+                       <option value="">1990</option>
+                       <option value="">1991</option>
+                       <option value="">1992</option>
+                       <option value="">1993</option>
+                       <option value="">1994</option>
+                       <option value="">1995</option>
+                       <option value="">1996</option>
+                       <option value="">1997</option>
+                       <option value="">1998</option>
+                       <option value="">1999</option>
+                       <option value="">2000</option>
+                       <option value="">2001</option>
+                       <option value="">2002</option>
+                       <option value="">2003</option>
+                       <option value="">2004</option>
+                       <option value="">2005</option>
+                       <option value="">2006</option>
+                       <option value="">2007</option>
+                       <option value="">2008</option>
+                       <option value="">2009</option>
+                       <option value="">2010</option>
+                       <option value="">2011</option>
+                       <option value="">2012</option>
+                       <option value="">2013</option>
+                       <option value="">2014</option>
+                       <option value="">2015</option>
+                       <option value="">2016</option>
+                       <option value="">2017</option>
+                       <option value="">2018</option>
+                       <option value="">2019</option>
+                       <option value="">2020</option>
+                       <option value="">2021</option>
+                       <option value="">2022</option>
+                       <option value="">2023</option>
+                    </select>
+                  </div>
                   </div>
                   <div class="flex flex-col pb-3">
                     <label for="">ভোটার আইডি নং <span class="text-red-500">*</span> </label>
@@ -342,7 +508,155 @@
                 </div>
                 <div class="flex flex-col pb-3">
                   <label for="">সর্বশেষ কর প্রদান অর্থবছর <span class="text-red-500">*</span> </label>
-                  <input type="date" class="border w-full py-2 rounded-md mt-1 px-2 focus:outline-none">
+                  <!-- <input type="date" class="border w-full py-2 rounded-md mt-1 px-2 focus:outline-none"> -->
+                  <div class="flex gap-1">
+                    <select name="day" class="border w-full py-2 rounded-md mt-1 px-2 focus:outline-none">
+                      <option disabled selected>Day</option>
+                     <option value="1">01</option>
+                     <option value="2">02</option>
+                     <option value="3">03</option>
+                     <option value="4">04</option>
+                     <option value="5">05</option>
+                     <option value="6">06</option>
+                     <option value="7">07</option>
+                     <option value="8">08</option>
+                     <option value="9">09</option>
+                     <option value="10">10</option>
+                     <option value="11">11</option>
+                     <option value="12">12</option>
+                     <option value="13">13</option>
+                     <option value="14">14</option>
+                     <option value="15">15</option>
+                     <option value="16">16</option>
+                     <option value="17">17</option>
+                     <option value="18">18</option>
+                     <option value="19">19</option>
+                     <option value="20">20</option>
+                     <option value="21">21</option>
+                     <option value="22">22</option>
+                     <option value="23">23</option>
+                     <option value="24">24</option>
+                     <option value="25">25</option>
+                     <option value="26">26</option>
+                     <option value="27">27</option>
+                     <option value="28">28</option>
+                     <option value="29">29</option>
+                     <option value="30">30</option>
+                     <option value="31">31</option>
+                    </select>
+                    <select name="month" class="border w-full py-2 rounded-md mt-1 px-2 focus:outline-none">
+                      <option disabled selected>Month</option>
+                      <option value="january">January</option>
+                      <option value="februay">Februay</option>
+                      <option value="march">March</option>
+                      <option value="april">April</option>
+                      <option value="may">May</option>
+                      <option value="june">June</option>
+                      <option value="july">July</option>
+                      <option value="august">August</option>
+                      <option value="september">September</option>
+                      <option value="octorber">Octorber</option>
+                      <option value="november">November</option>
+                      <option value="december">December</option>
+                    </select>
+                    <select name="year" class="border w-full py-2 rounded-md mt-1 px-2 focus:outline-none">
+                      <option disabled selected>Year</option>
+                       <option value="">1930</option>
+                       <option value="">1931</option>
+                       <option value="">1932</option>
+                       <option value="">1933</option>
+                       <option value="">1934</option>
+                       <option value="">1935</option>
+                       <option value="">1936</option>
+                       <option value="">1937</option>
+                       <option value="">1938</option>
+                       <option value="">1939</option>
+                       <option value="">1940</option>
+                       <option value="">1942</option>
+                       <option value="">1942</option>
+                       <option value="">1943</option>
+                       <option value="">1944</option>
+                       <option value="">1945</option>
+                       <option value="">1946</option>
+                       <option value="">1947</option>
+                       <option value="">1948</option>
+                       <option value="">1949</option>
+                       <option value="">1950</option>
+                       <option value="">1951</option>
+                       <option value="">1952</option>
+                       <option value="">1953</option>
+                       <option value="">1954</option>
+                       <option value="">1955</option>
+                       <option value="">1956</option>
+                       <option value="">1957</option>
+                       <option value="">1958</option>
+                       <option value="">1959</option>
+                       <option value="">1960</option>
+                       <option value="">1961</option>
+                       <option value="">1962</option>
+                       <option value="">1963</option>
+                       <option value="">1964</option>
+                       <option value="">1965</option>
+                       <option value="">1966</option>
+                       <option value="">1967</option>
+                       <option value="">1968</option>
+                       <option value="">1969</option>
+                       <option value="">1970</option>
+                       <option value="">1971</option>
+                       <option value="">1972</option>
+                       <option value="">1973</option>
+                       <option value="">1974</option>
+                       <option value="">1975</option>
+                       <option value="">1976</option>
+                       <option value="">1977</option>
+                       <option value="">1978</option>
+                       <option value="">1979</option>
+                       <option value="">1980</option>
+                       <option value="">1981</option>
+                       <option value="">1982</option>
+                       <option value="">1983</option>
+                       <option value="">1984</option>
+                       <option value="">1985</option>
+                       <option value="">1986</option>
+                       <option value="">1987</option>
+                       <option value="">1988</option>
+                       <option value="">1989</option>
+                       <option value="">1990</option>
+                       <option value="">1991</option>
+                       <option value="">1992</option>
+                       <option value="">1993</option>
+                       <option value="">1994</option>
+                       <option value="">1995</option>
+                       <option value="">1996</option>
+                       <option value="">1997</option>
+                       <option value="">1998</option>
+                       <option value="">1999</option>
+                       <option value="">2000</option>
+                       <option value="">2001</option>
+                       <option value="">2002</option>
+                       <option value="">2003</option>
+                       <option value="">2004</option>
+                       <option value="">2005</option>
+                       <option value="">2006</option>
+                       <option value="">2007</option>
+                       <option value="">2008</option>
+                       <option value="">2009</option>
+                       <option value="">2010</option>
+                       <option value="">2011</option>
+                       <option value="">2012</option>
+                       <option value="">2013</option>
+                       <option value="">2014</option>
+                       <option value="">2015</option>
+                       <option value="">2016</option>
+                       <option value="">2017</option>
+                       <option value="">2018</option>
+                       <option value="">2019</option>
+                       <option value="">2020</option>
+                       <option value="">2021</option>
+                       <option value="">2022</option>
+                       <option value="">2023</option>
+                    </select>
+                  </div>
                 </div>
               </div>
             </div>
@@ -407,7 +721,13 @@
   </section>
 
 <!-- footer section start here -->
-<footer class="bg-[#000000] py-8">
+<footer class="my-2 px-3 md:px-4">
+  <div class="border bg-[#000000] text-white text-center py-14">
+    <p class="mb-3">Bangladesh Police</p>
+    <p>Copyright © 2023 Bangladesh Police</p>
+  </div>
+</footer>
+<!-- <footer class="bg-[#000000] py-8">
   <div class="px-2 md:px-28">
   <div class="md:flex items-center justify-between space-y-5">
     <div class="flex items-center gap-2">
@@ -419,7 +739,7 @@
     </div>
   </div>
 </div>
-</footer>
+</footer> -->
 
     <!-- JavaScript code -->
     <script>
