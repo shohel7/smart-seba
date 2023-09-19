@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- daisyUi cdn link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- tailwind Cdn Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Payment Gateway</title>
+  </head>
+  <body>
+    <!-- header section start here -->
+    <header class="bg-[#0B4072]">
+      <nav class="px-5 md:px-28 py-2">
+        <div class="flex items-center justify-between">
+          <img
+            class="w-16"
+            src="/images/payment/sonali-bank-logo.png"
+            alt="bank-logo"
+          />
+          <i
+            class="fa-solid fa-bars text-white text-xl border px-3 py-1 rounded-md cursor-pointer"
+          ></i>
+        </div>
+      </nav>
+    </header>
+    <!-- header section end here -->
+
+    <!-- main section start here -->
+    <main class="px-5 md:px-28 py-2">
+      <div>
+        <div class="relative bg-[#E8BF3F] pt-12 md:pt-16 pb-3 mt-7">
+          <div
+            class="text-[#234F59] flex flex-col justify-center items-center px-3"
+          >
+            <h3 class="text-2xl font-bold">Sonali Payment Gateway</h3>
+            <span class="flex items-center gap-2">
+              <span
+                class="text-white bg-[#C55903] rounded-full h-6 w-12 md:h-8 md:w-8 flex items-center pl-2 md:pl-3"
+              >
+                <i class="fa-solid fa-info"></i>
+              </span>
+              <p class="text-sm md:text-base">
+                একই সার্ভিসের জন্য আপনার একাউন্ট থেকে টাকা পেমেন্ট কর্তন হলে
+                দ্বিতীয়বার পেমেন্ট না করার জন্য অনুরোধ করা হচ্ছে
+              </p>
+            </span>
+          </div>
+          <div class="absolute -top-8 right-[140px] md:right-[510px]">
+            <img
+              class="w-16 md:w-24 bg-[#040D74] rounded-full p-2 mx-auto"
+              src="/images/payment/sonali-bank-logo.png"
+              alt="bank-logo"
+            />
+          </div>
+        </div>
+        <table class="border w-full text-sm md:text-base">
+          <tr class="border">
+            <td class="border py-3 pl-3">নাম:</td>
+            <td class="border py-3 pl-3">মো: সোহেল রানা</td>
+          </tr>
+          <tr class="border">
+            <td class="border py-3 pl-3">পিতার নাম:</td>
+            <td class="border py-3 pl-3">আব্দুল জব্বার মন্ডল</td>
+          </tr>
+          <tr class="border">
+            <td class="border py-3 pl-3">মাতার নাম:</td>
+            <td class="border py-3 pl-3">মিসেস শিউলি বেগম</td>
+          </tr>
+          <tr class="border">
+            <td class="border py-3 pl-3">মোবাইল নং:</td>
+            <td class="border py-3 pl-3">০১৭৮০৬৫৩৮৮২</td>
+          </tr>
+          <tr class="border">
+            <td class="border py-3 pl-3">হোল্ডিং নং:</td>
+            <td class="border py-3 pl-3">#36A Kha-5B6</td>
+          </tr>
+          <tr class="border">
+            <td class="border py-3 pl-3">ওয়ার্ড নং:</td>
+            <td class="border py-3 pl-3">ওয়ার্ড নং ৩৬</td>
+          </tr>
+          <tr class="border">
+            <td class="border py-3 pl-3">ইউনিয়ন নাম:</td>
+            <td class="border py-3 pl-3">পার্বতীপুর ইউনিয়ন</td>
+          </tr>
+          <tr class="border">
+            <td class="border py-3 pl-3">জেলা:</td>
+            <td class="border py-3 pl-3">নারায়ণগঞ্জ</td>
+          </tr>
+          <tr class="border">
+            <td class="border py-3 pl-3">বাৎসরিক কর:</td>
+            <td class="border py-3 pl-3">২৫০০০০ টাকা</td>
+          </tr>
+          <tr class="border">
+            <td class="border py-3 pl-3">বকেয়া:</td>
+            <td class="border py-3 pl-3">৫০০০০ টাকা</td>
+          </tr>
+          <tr class="border">
+            <td class="border py-3 pl-3">সর্বমোট:</td>
+            <td class="border py-3 pl-3">২৫০০০০ টাকা</td>
+          </tr>
+        </table>
+        <div class="flex gap-2 text-center">
+          <div class="bg-[#E8BF3F] py-2 w-full text-white">
+            <span>Sonali Bank</span>
+          </div>
+          <div class="bg-[#E8BF3F] py-2 w-full text-white">
+            <span></span>Cards
+          </div>
+          <div class="bg-[#E8BF3F] py-2 w-full text-white">
+            <span></span>Mobile Banking
+          </div>
+        </div>
+
+        <div>
+          <div class="grid grid-cols-3 gap-3 mt-5">
+            <div class="border p-5 rounded-md">
+              <img
+                class="w-full"
+                src="/images/payment/payment-1.png"
+                alt="payment-logo"
+              />
+            </div>
+            <div class="border p-5 rounded-md">
+              <img
+                class="w-full"
+                src="/images/payment/payment-2.png"
+                alt="payment-logo"
+              />
+            </div>
+            <div class="border p-5 rounded-md">
+              <img
+                class="w-full"
+                src="/images/payment/payment-3.png"
+                alt="payment-logo"
+              />
+            </div>
+            <div class="border p-5 rounded-md">
+              <img
+                class="w-full"
+                src="/images/payment/payment-4.png"
+                alt="payment-logo"
+              />
+            </div>
+            <div class="border p-5 rounded-md">
+              <img
+                class="w-full"
+                src="/images/payment/payment-5.png"
+                alt="payment-logo"
+              />
+            </div>
+            <div
+              onclick="my_modal_1.showModal()"
+              class="border p-5 rounded-md cursor-pointer"
+            >
+              <img
+                class="w-full"
+                src="/images/payment/payment-6.png"
+                alt="payment-logo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Confirm payment modal start -->
+    <dialog id="confirm_modal" class="modal modal-center sm:modal-middle">
+      <div class="modal-box w-80">
+        <div class="absolute left-2 top-2">
+          <img
+            class="w-10"
+            src="/images/payment/payment-6.png"
+            alt="tap-logo"
+          />
+        </div>
+        <div class="bg-[#D2E2D8] mt-8 p-5 rounded-lg">
+          <div class="bg-white p-3 rounded-lg">
+            <h3 class="font-bold text-xl text-center">Sonali Bank Limited</h3>
+            <div class="flex justify-between items-center mt-2">
+              <span class="text-[#8ABC8B]">Invoice No: 8738347389</span>
+              <span>1014 টাকা</span>
+            </div>
+          </div>
+          <div class="text-sm my-3">
+            <label class="font-bold" for="account"
+              >Enter Your Tab Account Number</label
+            >
+            <input
+              type="text"
+              class="border-2 border-[#8ABC8B] py-2 pl-2 w-full rounded-lg focus:outline-none"
+              placeholder="Eg. 0189000000"
+            />
+          </div>
+          <div class="text-sm my-3">
+            <label class="font-bold" for="account">Enter Your Tab PIN</label>
+            <input
+              type="text"
+              class="border-2 border-[#8ABC8B] py-2 pl-2 w-full rounded-lg focus:outline-none"
+              placeholder="Eg. *****"
+            />
+          </div>
+          <div class="mb-3">
+            <p>
+              By Proceeding, you are agreeing to the<a
+                class="text-blue-500 underline"
+              >
+                terms & conditions</a
+              >
+            </p>
+          </div>
+          <div>
+            <button
+              class="bg-[#7DBF82] py-2 w-full rounded-lg text-white"
+              type="submit"
+            >
+              Send Verification code
+            </button>
+          </div>
+        </div>
+        <div class="modal-action">
+          <form method="dialog">
+            <button
+              class="btn btn-sm bg-slate-200 btn-circle btn-ghost absolute right-2 top-2"
+            >
+              ✕
+            </button>
+          </form>
+        </div>
+      </div>
+    </dialog>
+    <!-- modal end -->
+
+    <!-- Open the modal using ID.showModal() method -->
+    <!-- <button class="btn" onclick="confirm_modal.showModal()">open modal</button> -->
+
+    <!-- payment modal start -->
+    <dialog id="my_modal_1" class="modal modal-center sm:modal-middle">
+      <div class="modal-box w-80">
+        <div>
+          <img
+            class="mx-auto w-24 mb-3"
+            src="/images/payment/payment-6.png"
+            alt="tap-logo"
+          />
+          <div class="flex flex-col space-y-3">
+            <div class="flex justify-between items-center">
+              <span class="font-bold">Mode</span>
+              <span>Tap</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="font-bold">Main Amount</span>
+              <span>1000.00</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="font-bold">Processing Fees</span>
+              <span class="text-red-500">14.00</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="font-bold">Total Amount</span>
+              <span>1014.00</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-center gap-2 mt-5">
+            <div onclick="confirm_modal.showModal()">
+              <form method="dialog">
+                <button
+                  class="bg-[#4B53B5] py-2 px-4 rounded-md text-white focus:outline-none"
+                >
+                  Confirm
+                </button>
+              </form>
+            </div>
+            <div class="modal-action mb-6">
+              <form method="dialog">
+                <button class="bg-[#27A945] py-2 px-4 rounded-md text-white">
+                  Cancel
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="modal-action">
+          <form method="dialog">
+            <button
+              class="btn btn-sm bg-slate-200 btn-circle btn-ghost absolute right-2 top-2"
+            >
+              ✕
+            </button>
+          </form>
+        </div> -->
+      </div>
+    </dialog>
+    <!-- modal end -->
+
+    <!-- main section end here -->
+
+    <!-- footer section start here -->
+    <footer>
+      <div class="bg-[#000000] py-7 text-center">
+        <span class="font-bold text-white"
+          >&copy;2023 - Sonali Bank Limited</span
+        >
+      </div>
+    </footer>
+  </body>
+</html>
